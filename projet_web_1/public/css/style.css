@@ -1,0 +1,534 @@
+body {
+  margin: 0px;
+  background-color: #0d1010;
+}
+body .header {
+  background-color: #a8763e;
+  width: 100vw;
+  max-width: 100%;
+  height: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+body .header nav {
+  display: flex;
+  justify-content: space-around;
+}
+body .header nav .logo {
+  width: 380px;
+  height: 136px;
+  margin-top: 20px;
+  display: flex;
+}
+body .header nav .logo a {
+  position: relative;
+  right: 40px;
+  bottom: 10px;
+}
+body .header nav .logo a .maison {
+  width: 76px;
+  height: 76px;
+}
+body .header nav .logo .logo-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 205px;
+  height: 136px;
+}
+body .header nav .pages {
+  width: 740px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 37px;
+  margin-left: 225px;
+}
+body .header nav .pages a:link {
+  color: #fdfefd;
+  text-decoration: none;
+  font-family: gimlet-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+}
+body .header nav .pages a:visited {
+  color: #fdfefd;
+}
+body .header nav .pages a:active {
+  text-decoration: underline;
+}
+body .header nav .reseaux-sociaux {
+  width: 154px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+body .header nav .reseaux-sociaux img {
+  width: 38px;
+  height: 38px;
+}
+body .entete {
+  background-image: url("../images/burger_entete.jpg");
+  width: 100vw;
+  max-width: 100%;
+  height: 980px;
+  color: #fdfefd;
+  display: flex;
+}
+body .entete .card01 {
+  width: 537px;
+  height: 594px;
+  background: rgba(13, 16, 16, 0.7);
+  border: 2px solid #fdfefd;
+  margin-left: 359px;
+  margin-top: 166px;
+}
+body .entete .card01 h1 {
+  margin-top: 52px;
+  margin-left: 59px;
+  margin-bottom: 0px;
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 700;
+  font-size: 54px;
+  font-style: normal;
+}
+body .entete .card01 .p-entete {
+  margin-left: 59px;
+  margin-top: 71px;
+  margin-bottom: 95px;
+}
+body .entete .card01 .p-entete p {
+  font-family: gimlet-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+  margin: 0px;
+}
+body .entete .card01 a:link {
+  background-color: #6f1a07;
+  text-decoration: none;
+  color: #fdfefd;
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  padding: 29px 84px;
+  margin-left: 59px;
+  border: 6px solid #a8763e;
+}
+body .entete .card01 a:visited {
+  color: #fdfefd;
+  text-decoration: none;
+  border: 6px solid #a8763e;
+}
+body .main-apropos-ensavoirplus {
+  background-color: #0d1010;
+  width: 100vw;
+  max-width: 100%;
+  height: 1080px;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus {
+  display: flex;
+  padding-left: 218px;
+  padding-top: 127px;
+  align-items: flex-start;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus .img-apropos-ensavoirplus {
+  background-image: url("../images/tartare.png");
+  width: 820px;
+  height: 820px;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus .description-apropos-ensavoirplus {
+  background-color: #fdfefd;
+  width: 800px;
+  border: 8px solid #a8763e;
+  margin-top: 151px;
+  position: relative;
+  left: -134px;
+  z-index: 2;
+  padding-bottom: 48px;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus .description-apropos-ensavoirplus h2 {
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 700;
+  font-size: 54px;
+  color: #a8763e;
+  font-size: 72px;
+  margin-bottom: 14px;
+  margin-top: 48px;
+  margin-left: 44px;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus .description-apropos-ensavoirplus p {
+  font-family: gimlet-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #a8763e;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-left: 44px;
+  margin-right: 43px;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus .description-apropos-ensavoirplus .p2 {
+  margin-bottom: 79px;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus .description-apropos-ensavoirplus a:link {
+  background-color: #6f1a07;
+  text-decoration: none;
+  color: #fdfefd;
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  padding: 19px 76px;
+  border: 6px solid #a8763e;
+  margin-left: 427px;
+  display: inline-block;
+}
+body .main-apropos-ensavoirplus .apropos-ensavoirplus .description-apropos-ensavoirplus a:visited {
+  color: #fdfefd;
+  text-decoration: none;
+  border: 6px solid #a8763e;
+}
+body .banniere-promo {
+  display: flex;
+  background-color: #a8763e;
+  width: 100vw;
+  max-width: 100%;
+  height: 226px;
+  justify-content: space-around;
+}
+body .banniere-promo .pitch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+body .banniere-promo .pitch img {
+  max-width: 142px;
+  max-height: 142px;
+}
+body .banniere-promo .pitch p {
+  color: #fdfefd;
+  font-family: gimlet-text, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22px;
+  margin-top: 0px;
+}
+body .section-commentaires-container {
+  display: flex;
+  background-color: #0d1010;
+  width: 100vw;
+  max-width: 100%;
+  height: 913px;
+}
+body .section-commentaires-container .section-commentaires {
+  width: 1573px;
+  margin: auto;
+  display: flex;
+  flex-shrink: 0;
+}
+body .section-commentaires-container .section-commentaires .commentaires-container {
+  background-color: #fdfefd;
+  border: 8px solid #a8763e;
+  width: 950px;
+  height: 452px;
+  margin-top: 91px;
+  z-index: 2;
+  position: relative;
+  left: 57px;
+}
+body .section-commentaires-container .section-commentaires .commentaires-container .h1 {
+  display: flex;
+  align-items: flex-end;
+}
+body .section-commentaires-container .section-commentaires .commentaires-container .h1 h1 {
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 72px;
+  color: #a8763e;
+  margin-bottom: 0px;
+  margin-top: 44px;
+  margin-left: 41px;
+}
+body .section-commentaires-container .section-commentaires .commentaires-container .h1 img {
+  width: 79px;
+  height: 79px;
+  margin-bottom: 17px;
+  margin-left: 10px;
+}
+body .section-commentaires-container .section-commentaires .commentaires-container .contenu {
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #a8763e;
+  margin-left: 41px;
+  height: 170px;
+  width: 873px;
+}
+body .section-commentaires-container .section-commentaires .commentaires-container .contenu .commentaire_texte {
+  height: 54px;
+}
+body .section-commentaires-container .section-commentaires .commentaires-container .contenu .commentaire_texte p {
+  margin-top: 40px;
+}
+body .section-commentaires-container .section-commentaires a:link {
+  background-color: #6f1a07;
+  text-decoration: none;
+  color: #fdfefd;
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  padding: 19px 76px;
+  border: 6px solid #a8763e;
+  margin-left: 41px;
+}
+body .section-commentaires-container .section-commentaires a:visited {
+  color: #fdfefd;
+  text-decoration: none;
+  border: 6px solid #a8763e;
+}
+body .section-commentaires-container .section-commentaires .img-section-commentaires {
+  background-image: url("../images/party.png");
+  width: 606px;
+  height: 638px;
+}
+body .footer {
+  background-color: #a8763e;
+  width: 100vw;
+  max-width: 100%;
+  height: 354px;
+  display: flex;
+  color: #fdfefd;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body .footer .section-gauche {
+  display: flex;
+  flex-direction: column;
+}
+body .footer .section-gauche .infolettre {
+  margin-top: 54px;
+  margin-left: 212px;
+  font-size: 28px;
+}
+body .footer .section-gauche .infolettre form .call-to-action {
+  margin-bottom: 0px;
+}
+body .footer .section-gauche .infolettre form .input-text {
+  width: 365px;
+  height: 42px;
+  font-size: 18px;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  border: 2px solid #0d1010;
+}
+body .footer .section-gauche .infolettre form .input-submit {
+  height: 48px;
+  width: 110px;
+  font-size: 18px;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fdfefd;
+}
+body .footer .section-gauche .infolettre form p {
+  margin-top: 0px;
+}
+body .footer .section-gauche .signature {
+  margin-left: 212px;
+  margin-top: 105px;
+  font-size: 22px;
+}
+body .footer .section-droite {
+  margin-left: 859px;
+}
+body .footer .section-droite .section-droite-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+body .footer .section-droite .section-droite-container .menu-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: end;
+  padding-top: 84px;
+}
+body .footer .section-droite .section-droite-container .menu-footer a:link {
+  color: #fdfefd;
+  font-size: 22px;
+  text-decoration: none;
+  margin-bottom: 16px;
+}
+body .footer .section-droite .section-droite-container .menu-footer a:visited {
+  color: #fdfefd;
+  font-size: 22px;
+  text-decoration: none;
+}
+body .footer .section-droite .section-droite-container .reseaux-sociaux {
+  display: flex;
+  justify-content: space-between;
+  width: 154px;
+}
+body .footer .section-droite .section-droite-container .reseaux-sociaux img {
+  max-width: 38px;
+  max-height: 38px;
+}
+body .entete-menu {
+  background-image: url("../images/entete-menu.jpg");
+  width: 100vw;
+  max-width: 100%;
+  height: 980px;
+  color: #fdfefd;
+  display: flex;
+}
+body .entete-menu .card02 {
+  width: 871px;
+  height: 314px;
+  background: rgba(13, 16, 16, 0.7);
+  border: 2px solid #fdfefd;
+  margin: auto;
+}
+body .entete-menu .card02 h1 {
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 149px;
+  margin-top: 68px;
+  margin-left: 33px;
+}
+body .section .banniere-categorie {
+  background-color: #a8763e;
+  width: 100vw;
+  max-width: 100%;
+  height: 100px;
+}
+body .section .banniere-categorie h2 {
+  margin-top: 0px;
+  font-size: 48px;
+  color: #fdfefd;
+  text-align: center;
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 21px;
+}
+body .section .section-categorie {
+  background-color: #0d1010;
+  width: 100vw;
+  max-width: 100%;
+}
+body .section .section-categorie .section-categorie-container-interne {
+  display: flex;
+  padding-left: 296px;
+  gap: 139px;
+}
+body .section .section-categorie .section-categorie-container-interne .img-categorie img {
+  padding-top: 93px;
+  padding-bottom: 93px;
+  width: 595px;
+}
+body .section .section-categorie .section-categorie-container-interne .plats-categorie {
+  padding-top: 66px;
+  padding-bottom: 77px;
+}
+body .section .section-categorie .section-categorie-container-interne .plats-categorie .nom-et-prix-container {
+  display: flex;
+  justify-content: space-between;
+}
+body .section .section-categorie .section-categorie-container-interne .plats-categorie .nom-et-prix-container p {
+  color: #fdfefd;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 21px;
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+}
+body .section .section-categorie .section-categorie-container-interne .plats-categorie .description-plat {
+  width: 595px;
+}
+body .section .section-categorie .section-categorie-container-interne .plats-categorie .description-plat p {
+  color: #fdfefd;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+body .contact-page-container {
+  height: 623px;
+  background-color: #0d1010;
+  width: 100vw;
+  max-width: 100%;
+}
+body .contact-page-container .contact-page {
+  display: flex;
+  gap: 92px;
+  margin-left: 352px;
+  padding-top: 87px;
+}
+body .contact-page-container .contact-page .zone-gauche {
+  text-align: end;
+}
+body .contact-page-container .contact-page .zone-gauche h1 {
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #fdfefd;
+  margin-top: 0px;
+  margin-bottom: 19px;
+}
+body .contact-page-container .contact-page .zone-gauche .adresse {
+  margin-bottom: 32px;
+}
+body .contact-page-container .contact-page .zone-gauche .adresse p {
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: #fdfefd;
+  margin: 0px;
+}
+body .contact-page-container .contact-page .zone-gauche .heures-ouverture {
+  margin-bottom: 32px;
+}
+body .contact-page-container .contact-page .zone-gauche .heures-ouverture p {
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  color: #fdfefd;
+  margin: 0px;
+}
+body .contact-page-container .contact-page .zone-gauche .reseaux-sociaux {
+  margin-bottom: 52px;
+  display: flex;
+  margin-left: 277px;
+  gap: 23px;
+}
+body .contact-page-container .contact-page .zone-gauche .reseaux-sociaux img {
+  width: 38px;
+  height: 38px;
+}
+body .contact-page-container .contact-page .zone-gauche a:link {
+  color: #fdfefd;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28px;
+  text-decoration: none;
+  padding: 17px 27px;
+  background-color: #6f1a07;
+  border: 6px solid #a8763e;
+}/*# sourceMappingURL=style.css.map */

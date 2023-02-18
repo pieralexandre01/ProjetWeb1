@@ -1,0 +1,342 @@
+body {
+  background-color: #0d1010;
+  color: #fdfefd;
+  width: 100vw;
+  max-width: 100%;
+}
+body h1 {
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+}
+body .header-admin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+body .header-admin .deconnexion:link {
+  background-color: #fdfefd;
+  font-size: 22px;
+  padding: 15px 28px;
+}
+body .header-admin img {
+  width: 76px;
+  height: 76px;
+}
+body label {
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body a:link {
+  text-decoration: none;
+  color: #0d1010;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body a:visited {
+  text-decoration: none;
+  color: #0d1010;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body .container-connexion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 900px;
+  margin-top: 175px;
+  margin-left: 500px;
+  align-items: center;
+}
+body .container-connexion label {
+  font-size: 16px;
+  margin-top: 20px;
+}
+body .container-connexion img {
+  width: 205px;
+  height: 136px;
+}
+body .container-connexion .courriel {
+  display: flex;
+  flex-direction: column;
+}
+body .container-connexion .courriel input {
+  width: 407px;
+  height: 30px;
+  background-color: #fdfefd;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+body .container-connexion .mot_de_passe {
+  display: flex;
+  flex-direction: column;
+}
+body .container-connexion .mot_de_passe input {
+  width: 407px;
+  height: 30px;
+  background-color: #fdfefd;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+body .container-connexion .btn {
+  margin-top: 20px;
+  width: 150px;
+  height: 30px;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+body .msg-operation {
+  margin-left: 875px;
+}
+body .options-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 79px;
+  margin-top: 60px;
+}
+body .options-admin .options-admin-select {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+body .options-admin .options-admin-select a:link {
+  font-size: 22px;
+  padding: 15px 91px;
+  background-color: #fdfefd;
+}
+body .options-admin2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 79px;
+  margin-top: 140px;
+}
+body .options-admin2 .options-admin-select {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+body .options-admin2 .options-admin-select a:link {
+  font-size: 22px;
+  padding: 15px 91px;
+  background-color: #fdfefd;
+}
+body .form-ajout-plat-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+body .form-ajout-plat-container h2 {
+  margin-bottom: 40px;
+  font-size: 36px;
+}
+body .form-ajout-plat-container form .label-plus-input {
+  display: flex;
+  flex-direction: column;
+}
+body .form-ajout-plat-container form .label-plus-input input {
+  width: 466px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+body .form-ajout-plat-container form .label-plus-input select {
+  width: 474px;
+  height: 35px;
+  margin-bottom: 20px;
+}
+body .form-ajout-plat-container form .btn {
+  width: 239px;
+  height: 74px;
+  font-size: 36px;
+  font-family: gimlet-text, serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 990px;
+  margin-top: 40px;
+}
+body .form-ajout-plat-container form .infrormations-entree-par-utilisateur {
+  display: flex;
+  gap: 40px;
+}
+body .form-ajout-plat-container form .infrormations-entree-par-utilisateur .textarea {
+  width: 709px;
+  height: 360px;
+}
+body .container-gestion-menu {
+  margin-left: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container-gestion-menu .container-plat {
+  display: flex;
+  flex-direction: column;
+  width: 603px;
+}
+body .container-gestion-menu .container-plat .nom-et-prix-container {
+  display: flex;
+  justify-content: space-between;
+}
+body .container-gestion-menu .container-plat .nom-et-prix-container p {
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-family: gimlet-display-compressed, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body .container-gestion-menu .container-plat .description-plat p {
+  margin-top: 8px;
+  font-size: 16px;
+}
+body .container-gestion-menu .container-plat .options {
+  margin-bottom: 20px;
+  text-align: end;
+}
+body .container-gestion-menu .container-plat .options .supprimer {
+  background-color: #6f1a07;
+  color: #fdfefd;
+  padding: 10px 15px;
+  border: 2px solid #a8763e;
+}
+body .container-gestion-menu .container-plat .options .modifier {
+  background-color: #a8763e;
+  color: #fdfefd;
+  padding: 10px 15px;
+  border: 2px solid #6f1a07;
+}
+body .form-ajout-plat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+body .form-ajout-plat form div {
+  display: flex;
+  flex-direction: column;
+}
+body .form-ajout-plat form div input {
+  width: 466px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+body .form-ajout-plat form div input[type=file] {
+  font-size: 17px;
+  color: #b8b8b8;
+}
+body .form-ajout-plat form input[type=submit] {
+  width: 239px;
+  height: 40px;
+  margin-left: 235px;
+}
+body .gestion-categories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+body .gestion-categories-container .nom-et-options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+body .gestion-categories-container .nom-et-options p {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+body .gestion-categories-container .nom-et-options .supprimer {
+  background-color: #6f1a07;
+  color: #fdfefd;
+  padding: 10px 15px;
+  border: 2px solid #a8763e;
+}
+body .gestion-categories-container .nom-et-options .modifier {
+  background-color: #a8763e;
+  color: #fdfefd;
+  padding: 10px 15px;
+  border: 2px solid #6f1a07;
+}
+body .ajout-utilisateur-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+body .ajout-utilisateur-container form {
+  font-size: 16px;
+}
+body .ajout-utilisateur-container form .nom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+body .ajout-utilisateur-container form .nom input {
+  width: 400px;
+  height: 40px;
+}
+body .ajout-utilisateur-container form .courriel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+body .ajout-utilisateur-container form .courriel input {
+  width: 400px;
+  height: 40px;
+}
+body .ajout-utilisateur-container form .mot_de_passe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+body .ajout-utilisateur-container form .mot_de_passe input {
+  width: 400px;
+  height: 40px;
+}
+body .ajout-utilisateur-container form input[type=submit] {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-left: 208px;
+}
+body .gestion-utilisateurs-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  align-items: center;
+  margin-top: 100px;
+}
+body .gestion-utilisateurs-container .nom {
+  text-align: center;
+}
+body .gestion-utilisateurs-container .supprimer {
+  background-color: #6f1a07;
+  color: #fdfefd;
+  padding: 10px 15px;
+  border: 2px solid #a8763e;
+  font-size: 16px;
+}
+body .gestion-utilisateurs-container .modifier {
+  background-color: #a8763e;
+  color: #fdfefd;
+  padding: 10px 15px;
+  border: 2px solid #6f1a07;
+  font-size: 16px;
+}/*# sourceMappingURL=style-admin.css.map */

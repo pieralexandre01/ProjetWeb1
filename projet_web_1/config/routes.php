@@ -1,0 +1,32 @@
+<?php
+// Tableau associatif qui associe une route à une méthode du controller
+// Structure: "nom de la route" => "nom de la méthode"
+$routes = [
+    "index" => "index",
+    "ajout-inscription-submit" => "ajoutInscriptionSubmit",
+    "menu" => "afficherMenu",
+    "apropos" => "afficherAPropos",
+    "contact" => "afficherContact",
+    "admin-connexion" => "afficherAdminConnexion",
+    "connexion-submit" => "connexionSubmit",
+    "zone-admin" => "afficherZoneAdmin",
+    "deconnexion" => "deconnexion",
+    "ajout-plat" => "afficherFomulaireAjoutPlat",
+    "ajout-plat-submit" => "ajoutPlatSubmit",
+    "gestion-menu" => "afficherGestionMenu",
+    "modification-plat" => "modifierPlat",
+    "modification-plat-submit" => "modifierPlatSubmit",
+    "suppression-plat" => "supprimerPlat",
+    "ajout-categorie" => "afficherFormulaireAjoutCategorie",
+    "ajout-categorie-submit" => "ajoutCategorieSubmit",
+    "gestion-categories" => "afficherGestionCategories",
+    "modification-categorie" => "modifierCategorie",
+    "modification-categorie-submit" => "modifierCategorieSubmit",
+    "suppression-categorie" => "supprimerCategorie",
+    "ajout-utilisateur" => "afficherFormulaireAjoutUtilisateur",
+    "ajout-utilisateur-submit" => "ajoutUtilisateurSubmit",
+    "gestion-utilisateurs" => "afficherGestionUtilisateurs",
+    "modification-utilisateur" => "modifierUtilisateur",
+    "modification-utilisateur-submit" => "modifierUtilisateurSubmit",
+    "suppression-utilisateur" => "supprimerUtilisateur",
+];

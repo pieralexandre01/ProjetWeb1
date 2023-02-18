@@ -1,0 +1,711 @@
+body {
+
+    margin: 0px;
+    background-color: #0d1010;
+
+    .header {
+
+        background-color: #a8763e;
+        width: 100vw;
+        max-width: 100%;
+        height: 100px;
+        position: sticky;
+        
+        nav {
+
+            display: flex;
+            justify-content: space-around;
+
+            .logo {
+
+                width: 380px;
+                height: 136px;
+                margin-top: 20px;
+                display: flex;
+
+                a {
+
+                    position: relative;
+                    right: 40px;
+                    bottom: 10px;
+
+                    .maison {
+
+                        width: 76px;
+                        height: 76px;
+                    }
+                }
+    
+                .logo-img {
+
+                    object-fit: contain;
+                    width: 205px;
+                    height: 136px;
+                }
+            }
+    
+            .pages {
+
+                width: 740px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 37px;
+                margin-left: 225px;
+    
+                a:link {
+
+                    color: #fdfefd;
+                    text-decoration: none;
+                    font-family: gimlet-text,serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 22px;
+                }
+
+                a:visited {
+
+                    color: #fdfefd;
+                }
+
+                a:active {
+
+                    text-decoration: underline;
+                }
+
+            }
+    
+            .reseaux-sociaux {
+
+                width: 154px;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 32px;
+    
+                img {
+                    width: 38px;
+                    height: 38px;
+                }
+    
+            }
+        }
+    }
+
+    .entete {
+
+        background-image: url("../images/burger_entete.jpg");
+        width: 100vw;
+        max-width: 100%;
+        height: 980px;
+        color: #fdfefd;
+        display: flex;
+
+        .card01{
+
+            width: 537px;
+            height: 594px;
+            background: rgba(13, 16, 16, 0.7);
+            border: 2px solid #fdfefd;
+            margin-left: 359px;
+            margin-top: 166px;
+
+            h1 {
+
+                margin-top: 52px;
+                margin-left: 59px;
+                margin-bottom: 0px;
+                font-family: gimlet-display-compressed, serif;
+                font-weight: 700;
+                font-size: 54px;
+                font-style: normal;
+            }
+
+            .p-entete {
+
+                margin-left: 59px;
+                margin-top: 71px;
+                margin-bottom: 95px;
+
+                p {
+
+                    font-family: gimlet-text,serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 28px;
+                    margin: 0px;
+                }
+            }
+
+            a:link {
+
+                background-color: #6f1a07;
+                text-decoration: none;
+                color: #fdfefd;
+                font-family: gimlet-display-compressed, serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 36px;
+                padding: 29px 84px;
+                margin-left: 59px;
+                border: 6px solid #a8763e;
+            }
+    
+            a:visited {
+    
+                color: #fdfefd;
+                text-decoration: none;
+                border: 6px solid #a8763e;
+            }
+        }
+    }
+
+    .main-apropos-ensavoirplus {
+
+        background-color: #0d1010;
+        width: 100vw;
+        max-width: 100%;
+        height: 1080px;
+
+            .apropos-ensavoirplus {
+
+                display: flex;
+                padding-left: 218px;
+                padding-top: 127px;
+                align-items: flex-start;
+
+                .img-apropos-ensavoirplus {
+
+                    background-image: url("../images/tartare.png");
+                    width: 820px;
+                    height: 820px;
+                }
+
+                .description-apropos-ensavoirplus {
+
+                    background-color: #fdfefd;
+                    width: 800px;
+                    //height: 507px;
+                    border: 8px solid #a8763e;
+                    margin-top: 151px;
+                    position: relative;
+                    left: -134px;
+                    z-index: 2;
+                    padding-bottom: 48px;
+
+                    h2 {
+
+                        font-family: gimlet-display-compressed, serif;
+                        font-weight: 700;
+                        font-size: 54px;
+                        color: #a8763e;
+                        font-size: 72px;
+                        margin-bottom: 14px;
+                        margin-top: 48px;
+                        margin-left: 44px;
+                    }
+
+                    p {
+
+                        font-family: gimlet-text,serif;
+                        font-weight: 300;
+                        font-style: normal;
+                        color: #a8763e;
+                        font-size: 16px;
+                        letter-spacing: 1px;
+                        margin-left: 44px;
+                        margin-right: 43px;
+                    }
+
+                    .p2 {
+
+                        margin-bottom: 79px;
+                    }
+
+                    a:link {
+
+                        background-color: #6f1a07;
+                        text-decoration: none;
+                        color: #fdfefd;
+                        font-family: gimlet-display-compressed, serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 36px;
+                        padding: 19px 76px;
+                        border: 6px solid #a8763e;
+                        margin-left: 427px;
+                        display: inline-block;
+                    }
+
+                    a:visited {
+
+                        color: #fdfefd;
+                        text-decoration: none;
+                        border: 6px solid #a8763e;
+                    }
+                }
+            }
+        }
+
+    .banniere-promo {
+
+        display: flex;
+        background-color: #a8763e;
+        width: 100vw;
+        max-width: 100%;
+        height: 226px;
+        justify-content: space-around;
+
+        .pitch {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 24px;
+
+            img {
+
+                max-width: 142px;
+                max-height: 142px;
+            }
+
+            p {
+
+                color: #fdfefd;
+                font-family: gimlet-text,serif;
+                font-weight: 300;
+                font-style: normal;
+                font-size: 22px;
+                margin-top: 0px;
+            }
+        }
+    }
+
+    .section-commentaires-container {
+
+        display: flex;
+        background-color: #0d1010;
+        width: 100vw;
+        max-width: 100%;
+        height: 913px;
+
+        .section-commentaires {
+
+            width: 1573px;
+            margin: auto;
+            display: flex;
+            flex-shrink: 0;
+
+            .commentaires-container {
+
+                background-color: #fdfefd;
+                border: 8px solid #a8763e;
+                width: 950px;
+                height: 452px;
+                margin-top: 91px;
+                z-index: 2;
+                position: relative;
+                left: 57px;
+
+                .h1 {
+
+                    display: flex;
+                    align-items: flex-end;
+
+                    h1 {
+
+                        font-family: gimlet-display-compressed, serif;
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 72px;
+                        color: #a8763e;
+                        margin-bottom: 0px;
+                        margin-top: 44px;
+                        margin-left: 41px;
+                    }
+
+                    img {
+
+                        width: 79px;
+                        height: 79px;
+                        margin-bottom: 17px;
+                        margin-left: 10px;
+                    }
+                }
+
+                .contenu {
+
+                    font-family: gimlet-text,serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 22px;
+                    color: #a8763e;
+                    margin-left: 41px;
+                    height: 170px;
+                    width: 873px;
+
+                    .commentaire_texte {
+                        
+                        height: 54px;
+
+                        p{
+
+                            margin-top: 40px;
+                        }
+                    }
+                }
+            }
+
+            a:link {
+
+                background-color: #6f1a07;
+                text-decoration: none;
+                color: #fdfefd;
+                font-family: gimlet-display-compressed, serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 36px;
+                padding: 19px 76px;
+                border: 6px solid #a8763e;
+                //margin-top: 59px;
+                margin-left: 41px
+            }
+
+            a:visited {
+
+                color: #fdfefd;
+                text-decoration: none;
+                border: 6px solid #a8763e;
+            }
+
+            .img-section-commentaires {
+
+                background-image: url("../images/party.png");
+                width: 606px;
+                height: 638px;
+            }
+        }
+    }
+
+    .footer {
+
+        background-color: #a8763e;
+        width: 100vw;
+        max-width: 100%;
+        height: 354px;
+        display: flex;
+        color: #fdfefd;
+        font-family: gimlet-text,serif;
+        font-weight: 400;
+        font-style: normal;
+
+        .section-gauche {
+
+            display: flex;
+            flex-direction: column;
+
+            .infolettre {
+
+                margin-top: 54px;
+                margin-left: 212px;
+                font-size: 28px;
+
+                form {
+
+                    .call-to-action {
+
+                        margin-bottom: 0px;
+                    }
+
+                    .input-text {
+
+                        width: 365px;
+                        height: 42px;
+                        font-size: 18px;
+                        font-family: gimlet-text,serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        border: 2px solid#0d1010;
+                    }
+
+                    .input-submit {
+
+                        height: 48px;
+                        width: 110px;
+                        font-size: 18px;
+                        font-family: gimlet-text,serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        background-color: #fdfefd;
+                    }
+
+                    p {
+
+                        margin-top: 0px;
+                    }
+                }
+            }
+
+            .signature { 
+            
+                margin-left: 212px;
+                margin-top: 105px;
+                font-size: 22px;
+            }
+        }
+
+        .section-droite {
+
+            margin-left: 859px;
+
+            .section-droite-container {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                .menu-footer {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    text-align: end;
+                    padding-top: 84px;
+    
+                    a:link {
+    
+                        color: #fdfefd;
+                        font-size: 22px;
+                        text-decoration: none;
+                        margin-bottom: 16px;
+                    }
+    
+                    a:visited {
+    
+                        color: #fdfefd;
+                        font-size: 22px;
+                        text-decoration: none;
+                    }
+                }
+    
+                .reseaux-sociaux {
+
+                    display:flex;
+                    justify-content: space-between;
+                    width: 154px;
+    
+                    img {
+    
+                        max-width: 38px;
+                        max-height: 38px;
+                    }
+                }
+            }
+        }
+    }
+
+    .entete-menu {
+
+        background-image: url("../images/entete-menu.jpg");
+        width: 100vw;
+        max-width: 100%;
+        height: 980px;
+        color: #fdfefd;
+        display: flex;
+
+        .card02 {
+
+            width: 871px;
+            height: 314px;
+            background: rgba(13, 16, 16, 0.7);
+            border: 2px solid #fdfefd;
+            margin: auto;
+
+            h1 {
+
+                font-family: gimlet-display-compressed, serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 149px;
+                margin-top: 68px;
+                margin-left: 33px;
+            }
+        }
+    }
+
+    .section {
+
+        .banniere-categorie {
+
+            background-color: #a8763e;
+            width: 100vw;
+            max-width: 100%;
+            height: 100px;
+
+            h2 {
+
+                margin-top: 0px;
+                font-size: 48px;
+                color: #fdfefd;
+                text-align: center;
+                font-family: gimlet-display-compressed, serif;
+                font-weight: 400;
+                font-style: normal;
+                padding-top: 21px;
+            }
+        }
+
+        .section-categorie {
+
+            background-color: #0d1010;
+            width: 100vw;
+            max-width: 100%;
+
+            .section-categorie-container-interne {
+
+                display: flex;
+                padding-left: 296px;
+                gap: 139px;
+    
+                .img-categorie {
+    
+                    img {
+    
+                        padding-top: 93px;
+                        padding-bottom: 93px;
+                        width: 595px;
+                    }
+                }
+    
+                .plats-categorie{
+    
+                    padding-top: 66px;
+                    padding-bottom: 77px;
+    
+                    .nom-et-prix-container {
+    
+                        display: flex;
+                        justify-content: space-between;
+    
+                        p{
+    
+                            color: #fdfefd;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            padding-top: 21px;
+                            font-family: gimlet-display-compressed, serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 28px;
+                        }
+                    }
+    
+                    .description-plat {
+    
+                        width: 595px;
+    
+                        p {
+    
+                            color: #fdfefd;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            padding-top: 16px;
+                            padding-bottom: 16px;
+                            font-family: gimlet-text,serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .contact-page-container {
+
+        height: 623px;
+        background-color: #0d1010;
+        width: 100vw;
+        max-width: 100%;
+
+        .contact-page {
+
+            display: flex;
+            gap: 92px;
+            margin-left: 352px;
+            padding-top: 87px;
+
+            .zone-gauche {
+
+                text-align: end;
+
+                h1 {
+
+                    font-family: gimlet-display-compressed, serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 48px;
+                    color: #fdfefd;
+                    margin-top: 0px;
+                    margin-bottom: 19px;
+                }
+                
+                .adresse {
+
+                    margin-bottom: 32px;
+
+                    p {
+
+                        font-family: gimlet-text,serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 28px;
+                        color: #fdfefd;
+                        margin: 0px;
+                    }
+                }
+
+                .heures-ouverture {
+
+                    margin-bottom: 32px;
+
+                    p {
+
+                        font-family: gimlet-text,serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 28px;
+                        color: #fdfefd;
+                        margin: 0px;
+                    }
+                }
+
+                .reseaux-sociaux {
+
+                    margin-bottom: 52px;
+                    display: flex;
+                    margin-left: 277px;
+                    gap: 23px;
+
+                    img {
+                        
+                        width: 38px;
+                        height: 38px;
+                    }
+                }
+
+                a:link {
+
+                    color: #fdfefd;
+                    font-family: gimlet-text,serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 28px;
+                    text-decoration: none;
+                    padding: 17px 27px;
+                    background-color: #6f1a07;
+                    border: 6px solid #a8763e;
+                }
+            }
+        }
+    }
+}
